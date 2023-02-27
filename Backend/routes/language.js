@@ -6,8 +6,6 @@ const router = Router()
 //////////////////////////////////////////////////////////////////////////////////////////
 router.get('/', async (req, res) => {
 
-  /* #swagger.tags = ['language'] */
-
   /* Obtener listado de lenguajes en el repositorio */
   const respuesta = Language
   /*Repuesta Al Usuario */
