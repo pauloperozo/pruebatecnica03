@@ -26,25 +26,6 @@ router.get('/', async (req, res) => {
 //////////////////////////////////////////////////////////////////////////////////////////
 router.get('/report/name/:name/language/:language/limit/:limit',RepoValidations,async (req, res) => {
 
-  /*  
-      #swagger.tags = ['Cambio De Password']
-      #swagger.summary = '@Input ( idUsuario ) @Output ( aceptado:rechazado )'
-      #swagger.description = 'Permite Cambiar Contraseña Del Usuario' 
-      #swagger.consumes = ['application/json']  
-
-  */
-  
-  /*
-      #swagger.parameters['obj'] = 
-      {
-          in: 'body',
-          description: 'Parametros Necesarios para cambiar la contraseña (password)',
-          required: true, 
-          type: 'json',
-          schema: { password: "123"}
-      }
-  */
-
   /*Entrada de datos */
   let { name,language,limit } = req.params
         name = `github-ranking-${new moment(name,"DD-MM-YYYY").format("YYYY-MM-DD")}.csv` /*Formato Valido Interno del campo */
