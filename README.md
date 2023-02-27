@@ -54,6 +54,9 @@ Con este comando se inicia el servicio.
 Los test se desarrollaron utilizando jest y supertest (se encuentran en dependencias de desarrollo)
 Para ejecutar las pruebas, sólo debes utilizar el comando ``npm run test``` ✅.
 
+## Resulado Final 🚥
+
+En el directorio examples contendra unos captures de pantalla, mostrando el resultado final, al iniciar los servicios anteriormente mencionados.
 
 ## Autor ✒️
 
